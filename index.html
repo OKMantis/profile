@@ -4,23 +4,57 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
-  </style>
-  <!-- Fontawesome Stylesheet -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <title>My Profile</title>
+  @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<title>My Profile</title>
 </head>
 <body>
   <div class="container">
-    <div class="card text-center">
-      <img src="images/foto_flynth.jpg" alt="My Profile Picture" id="img-profile">
-      <h1>Owen Moss</h1>
-      <h2>Web Developer @Digital Grafic Ibiza</h2>
-      <p>I design, code and maintain DGI web services. DGI is always adapting to the needs of its clients with innovation and imagination. Its three guidebooks set the standard for advertising of products and services, and the Ibiza Formentera APP offers a free digital portal for all of this information. In addition, Digital Grafic Ibiza publishes Ibiza Optimista – the Good News newspaper, and IbiCasa – the island’s most diverse magazine. All of our publications are available in multiple languages so that they reach both the national and international communities.</p>
-      <a href="http://digitalgraficibiza.com/who-we-are/" target="_blank" class="btn-red">Check it out</a>
+    <div class="profile text-center">
+      <div class="main card">
+        <div class="card-content">
+          <img src="images/foto_flynth.jpg" alt="Owen" width="150" class="img-circle">
+          <h2>Owen Moss MSc EMA</h2>
+          <p>Web Developer at Digital Grafic Ibiza</p>
+          <a href="#" class="btn btn-primary btn-lg">Get in touch</a>
+        </div>
+      </div>
+      <div class="stat card">
+        <div class="card-content">
+          <h3>3,536</h3>
+          <p>contributions</p>
+        </div>
+      </div>
+      <div class="startup card">
+        <div class="card-content">
+          <h3>758</h3>
+          <p>followers</p>
+        </div>
+      </div>
+      <div class="stat card">
+        <div class="card-content">
+          <h3>119</h3>
+          <p>repositories</p>
+        </div>
+      </div>
+      <div class="bio card">
+        <div class="card-content">
+          <h3>More about Owen</h3>
+          <p class="text-justify">
+            I design, code and maintain DGI web services. DGI is always adapting to the needs of its clients with innovation and imagination. Its three guidebooks set the standard for advertising of products and services, and the Ibiza Formentera APP offers a free digital portal for all of this information. In addition, DGI publishes Ibiza Optimista – the Good News newspaper, and IbiCasa – the island’s most diverse magazine. All of our publications are available in multiple languages so that they reach both the national and international communities.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="card text-center">
-      <ul class="list-inline">
+  </div>
+
+
+  <div class="container">
+    <div class="social-media text-center">
+      <div class="card-content">
+        <ul class="list-inline">
         <li class="text-center">
           <a href="https://www.facebook.com/owenkmoss">
             <i class="fab fa-facebook-f"></i>
@@ -30,79 +64,83 @@
         </li>
         <li class="text-center">
           <a href="https://www.linkedin.com/in/owen-moss-msc-ema-6239032b/">
-          <i class="fab fa-linkedin-in"></i>
-          <br>
-          LinkedIn
+            <i class="fab fa-linkedin-in"></i>
+            <br>
+            LinkedIn
           </a>
         </li>
         <li class="text-center">
           <a href="https://www.instagram.com/owenmossibz/">
-          <i class="fab fa-instagram"></i>
-          <br>
-          Instagram
+            <i class="fab fa-instagram"></i>
+            <br>
+            Instagram
           </a>
         </li>
       </ul>
-    </div>
-    <div class="card text-center">
-      <h2>My Favorite Movies</h2>
-      <table id="movies">
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/guardiansofthegalaxy_small.jpg" alt="Guardians Of The Galaxy" class="img-movie">
-            </td>
-            <td>
-              <h3>Guardians Of The Galaxy: Volume 2</h3>
-              <p>The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/inception_small.jpg" alt="Inception" class="img-movie">
-            </td>
-            <td>
-              <h3>Inception</h3>
-              <p>A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/the-matrix_small.jpg" alt="The Matrix" class="img-movie">
-            </td>
-            <td>
-              <h3>The Matrix</h3>
-              <p>A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="card text-center">
-      <h2>About this page</h2>
-      <p>This page has been coded during the FullStack program @LeWagon. I'm really happy with my new skill.
-      </p>
-      <ul class="list-inline">
-        <li>
-          <a class="size-footer-btn" href="#">
-            <i class="fas fa-share-alt"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="size-footer-btn">
-            <i class="fas fa-heart"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="size-footer-btn">
-            <i class="fas fa-star"></i>
-          </a>
-        </li>
-      </ul>
+      </div>
     </div>
   </div>
+
+
+  <div class="card text-center">
+    <h2>My Favorite Movies</h2>
+    <table id="movies">
+      <tbody>
+        <tr>
+          <td>
+            <img src="images/guardiansofthegalaxy_small.jpg" alt="Guardians Of The Galaxy" class="img-movie">
+          </td>
+          <td>
+            <h3>Guardians Of The Galaxy: Volume 2</h3>
+            <p>The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="images/inception_small.jpg" alt="Inception" class="img-movie">
+          </td>
+          <td>
+            <h3>Inception</h3>
+            <p>A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="images/the-matrix_small.jpg" alt="The Matrix" class="img-movie">
+          </td>
+          <td>
+            <h3>The Matrix</h3>
+            <p>A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card text-center">
+    <h2>About this page</h2>
+    <p>This page has been coded during the FullStack program @LeWagon. I'm really happy with my new skill.
+    </p>
+    <ul class="list-inline">
+      <li>
+        <a class="size-footer-btn" href="#">
+          <i class="fas fa-share-alt"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="size-footer-btn">
+          <i class="fas fa-heart"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="size-footer-btn">
+          <i class="fas fa-star"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
 </body>
 </html>

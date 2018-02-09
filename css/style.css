@@ -1,123 +1,36 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
+/* Importing components */
+@import url("components/card.css");
+@import url("components/navbar.css");
 
-/*General Styling*/
-h1, h2, h3 {
-  font-family: 'Raleway', sans-serif;
-}
-
-h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
+/* Importing layouts */
+@import url("layouts/map.css");
 
 body {
-  background: rgb(233, 239, 245);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #7d7d7d;
-  font-size: 15px;
-  line-height: 1.6em;
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  background: #F4F4F4;
 }
-
-.text-center {
-  text-align: center;
+p {
+  font-weight: lighter;
 }
-
-
-a {
-  text-decoration: none;
-  color: rgb(88, 10, 10);
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
 }
-
-/*Container Styling*/
-.container {
-  width: 500px;
-  margin: 30px auto;
+h1 {
+  font-size: 30px;
 }
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-}
-
-/*Card Styling*/
-.card {
-  background: white;
-  padding: 20px;
+h2 {
+  font-size: 25px;
   margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
-
-
-/*Profile Card Styling*/
-#img-profile {
-  border-radius: 50%;
-  width: 180px;
+h3 {
+  font-size: 23px;
 }
-
-.btn-red {
-  background-color: #DD5555;
-  color: white;
-  font-weight: 500;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-
-.btn-red:hover {
-    background-color: #C61414;
-    color: white;
-}
-
-.list-inline {
-    padding-left: 0;
-}
-
-.list-inline li {
-    display: inline-block;
-    padding: 20px;
-}
-
-/*Movies Card Styling*/
-.img-movie {
-  width: 150px;
-}
-
-#movies {
-  text-align: left;
-}
-
-#movies > tr > td > p {
-  font-size: 15px;
-  margin-top: 0px;
-}
-
-#movies > tr > td > h3 {
-  margin-bottom: 0px;
-}
-
-#movies td {
-  padding: 20px;
-}
-
-/*Footer Card Styling*/
-
-.size-footer-btn {
-  font-size: 40px;
+.padded {
+  padding: 30px 0;
 }
