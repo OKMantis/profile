@@ -4,9 +4,12 @@
 /* Importing components */
 @import url("components/card.css");
 @import url("components/navbar.css");
+@import url("components/profile_header.css");
+@import url("components/list.css");
+@import url("components/avatar.css");
 
 /* Importing layouts */
-@import url("layouts/map.css");
+@import url("layouts/profile.css");
 
 body {
   margin: 0;
